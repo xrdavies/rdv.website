@@ -1,0 +1,298 @@
+@media (max-width: 769px) {
+    header{
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    header .logo{
+        padding-top: 16px;
+    }
+    header .logo img{
+        width: 98px;
+    }
+    .navbar-toggler{
+        display: block;
+        padding-top: 16px;
+        text-align: right;
+    }
+    .nav-item a{
+        font-size: 11px;
+    }
+    header .navbar{
+        padding: 0;
+        width: 100vw;
+     }
+    .rht{
+        padding-right: 0;
+    }
+    #navbar{
+        display: none;
+    }
+    #navRht{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .navRhtBrdr{
+        display: none;
+    }
+    .navInner{
+        padding: 0;
+        margin: 0;
+        background: #fff;
+        position: fixed;
+        height: 100vh;
+        width: 65vw;
+        top:0;
+        right: 0;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .mask{
+        background: rgba(0, 0, 0, 0.6);
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        position: fixed;
+        z-index: 9;
+    }
+    .navRhtBrdr a{
+        color: #002c4c;
+        margin-bottom: 8px;
+    }
+    .nav-rht{
+        padding: 10px 0 0 30px;
+    }
+
+    .logo375{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 25px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo375 .logoRht{
+        width: 98px;
+        height: 17px;
+    }
+    .closeRht{
+        width: 26px;
+    }
+    .navbar-toggler-icon{
+        width: 13px;
+    }
+    .navbar-toggler-icon img{
+        width: 100%;
+    }
+    .banner .container{
+        padding: 26px 31px 0;
+    }
+
+    .banner h1{
+        font-size: 30px;
+        line-height: 1.2em;
+        white-space: nowrap;
+    }
+    .nameAll{
+        display: inline-block;
+    }
+    .banner .desc{
+        font-size: 9px;
+        padding-bottom: 0;
+        line-height: 1.8em;
+    }
+    .banner dl{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+    }
+    .banner dt img{
+        width: 6px;
+    }
+    .banner dd{
+       font-size: 9px;
+        line-height: 2em;
+        padding-top: 9px;
+    }
+    .banner .bannerRht{
+        position: relative;
+        width: 234px;
+        height: 163px;
+        margin: 5px auto 0;
+    }
+    .banner .lightImg{
+
+        width: 236px;
+        right:0;
+    }
+    .banner .light{
+        width:236px;
+    }
+    @keyframes ripple {
+        0% {
+            top:-12px;
+            width:240px;
+            right:-10px;
+        }
+        100% {
+            top: -62px;
+            right: -40px;
+            width:340px;
+        }
+    }
+    .philosophy .container{
+        padding: 50px 33px 0;
+    }
+    .philosophy .bg1title{
+        background-size: 162px 40px;
+        font-size: 17px;
+        padding:14px 0 30px  10px;
+        margin-bottom: 0;
+        height: 50px;
+    }
+    .philosophy .phCont img{
+        width: 50px;
+    }
+    .philosophy .phCont{
+        font-size: 15px;
+        font-family: DINCondensedBold;
+    }
+    .philosophy .phCont .row > div{
+        margin-bottom: 15px;
+    }
+    .members .container{
+        padding: 50px 33px 0;
+    }
+    .members .topTit{
+        font-size: 28px;
+        line-height: 1.2em;
+        width: auto;
+    }
+    .members .topTit span{
+        display: inline-block;
+        width: 100%;
+    }
+    .members .member li{
+        padding: 0;
+        height:auto;
+        margin-top: 0;
+        transition:none;
+        margin-bottom: 20px;
+    }
+    .members .member img{
+        width: 75px;
+        height: 75px;
+        margin-bottom: 15px;
+    }
+    .members .member li .nameTop{
+        font-size: 9px;
+    }
+    .members .member li .desc{
+        font-size: 8px;
+    }
+    .projects .container{
+        padding: 40px 33px 0;
+    }
+    .projects .bg2title{
+        background-size: 151px 41px;
+        font-size: 17px;
+        height: 50px;
+        padding:13px 0 30px  37px;
+        margin-bottom: 0;
+    }
+    .projects .projectBrdr ul {
+        justify-content:flex-start;
+        flex-direction: column;
+    }
+    .projects .projectBrdr li{
+        height: auto;
+        font-size: 9px;
+        padding: 10px 12px 25px;
+        width: 100%;
+        min-height:168px ;
+    }
+    .projects .projectBrdr li:hover{
+        transform: none;
+    }
+    .projects .projectBrdr li .tit{
+        left: 12px;
+        bottom: 0;
+         top:10px;
+        font-size: 23px;
+    }
+    .projects .projectBrdr li .logoA{
+        right: 15px;
+         top:20px;
+        position: absolute;
+        height: 44px;
+    }
+    .projects .projectBrdr li .logoA img{
+        height: 44px;
+        padding-bottom: 0;
+    }
+    .projects .projectBrdr li .desc{
+        padding-top: 60px;
+        line-height: 1.8em;
+    }
+    .projects .scrollBrdr{
+        margin: 14px auto 27px;
+    }
+    .projects .scrollBrdr .scrollBg{
+        width: 40px;
+        height: 5px;
+    }
+    .projects .scrollBrdr .scroller{
+        width: 18px;
+        height: 5px;
+    }
+    footer{
+        padding: 23px 0 60px;
+    }
+    footer .know{
+        font-size: 30px;
+        line-height: 1.2em;
+        padding-bottom: 18px;
+    }
+    footer .show{
+        width: 184px;
+        height: 30px;
+        font-size: 12px;
+        line-height:30px;
+        margin-bottom: 50px;
+    }
+    footer .contactbrdr{
+        flex-direction: column;
+    }
+    footer .contactbrdr .qrcode{
+        width: 60px;
+        padding: 0;
+        margin-right: 0;
+
+    }
+    footer .contBg{
+        top: auto;
+        bottom: 0;
+    }
+    footer .cont{
+        text-align: center;
+        padding-bottom: 19px;
+    }
+    footer .contactbrdr .nameTop{
+        font-size: 9px;
+    }
+    footer .contactbrdr .desc{
+       font-size: 9px;
+        opacity: 0.8;
+    }
+    footer .copyright{
+
+        font-size: 9px;
+
+    }
+}

@@ -1,0 +1,422 @@
+body,html{
+    background: #002C4C;
+    color: #ffffff;
+    font-family: AlibabaPuHuiTi;
+    position: relative;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    color: #ffffff;
+}
+a:hover{
+    color: #05d266;
+}
+
+
+/*header*/
+header{
+    padding-top: 33px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 99;
+    background: #002C4C;
+    padding-bottom:20px;
+}
+header .logo img{
+    width: 196px;
+}
+header .nav a.active{
+    color: #05d266;
+}
+header .navbar{
+    width: 100%;
+}
+header .collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#navbar{
+    display: block;
+}
+#navRht{
+    display: none;
+}
+
+/*banner*/
+.banner .container{
+    padding: 140px 43px 0;
+}
+.banner h1{
+    padding-top: 12px;
+    font-family: DINCondensedBold;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 72px;
+    letter-spacing: 2px;
+}
+.banner .desc{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.8;
+    padding-bottom: 27px;
+}
+.banner .nameAll{
+    white-space: nowrap;
+}
+.banner dt img{
+    width: 12px;
+}
+.banner dd{
+    color: #77ff64;
+    padding-right: 6px;
+}
+.banner dt,.banner dd{
+    display: inline-block;
+}
+.banner .lightImg{
+    position: absolute;
+    width: 410px;
+    right:43px;
+    top: 0;
+    z-index: 3;
+}
+.banner .light{
+    position: absolute;
+    width: 411px;
+
+    z-index:1;
+    -webkit-animation-name:'ripple';
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+
+}
+@keyframes ripple {
+    0% {
+        top:-27px;
+        width:400px;
+        right: 43px;
+    }
+    100% {
+        top: -177px;
+        /*top: -99px;*/
+        right: -100px;
+        width:700px;
+    }
+}
+.banner .light img{
+    width: 100%;
+
+}
+
+.banner .bannerRht{
+    position: relative;
+    width: 410px;
+    height: 300px;
+}
+
+/*philosophy*/
+.philosophy .container{
+    padding: 92px 43px 0;
+}
+.philosophy .bg1title{
+    background:url("../images/INPH.png") no-repeat;
+    height: 84px;
+    color: #61ffdf;
+    font-family: DINCondensedBold;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding:28px 0 57px  24px;
+    margin-bottom: 68px;
+}
+.philosophy .phCont .row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.philosophy .phCont img{
+    width: 100px;
+    transform: perspective(1px) translateZ(0);
+}
+
+.philosophy .phCont .row >div:hover img, .philosophy .phCont img:focus, .philosophy .phCont img:active {
+    -webkit-animation-name: buzz-out;
+    animation-name: buzz-out;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    will-change: transform;
+}
+@keyframes buzz-out {
+    10% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    20% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+    30% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    40% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+    50% {
+        -webkit-transform: translateX(2px) rotate(1deg);
+        transform: translateX(2px) rotate(1deg);
+    }
+    60% {
+        -webkit-transform: translateX(-2px) rotate(-1deg);
+        transform: translateX(-2px) rotate(-1deg);
+    }
+    70% {
+        -webkit-transform: translateX(2px) rotate(1deg);
+        transform: translateX(2px) rotate(1deg);
+    }
+    80% {
+        -webkit-transform: translateX(-2px) rotate(-1deg);
+        transform: translateX(-2px) rotate(-1deg);
+    }
+    90% {
+        -webkit-transform: translateX(1px) rotate(0);
+        transform: translateX(1px) rotate(0);
+    }
+    100% {
+        -webkit-transform: translateX(-1px) rotate(0);
+        transform: translateX(-1px) rotate(0);
+    }
+
+}
+
+/*members*/
+.members .container{
+    padding: 111px 43px 0;
+}
+.members .topTit{
+    width: 446px;
+    font-size: 55px;
+    font-family: DINCondensedBold;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 66px;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+}
+.members .topTit span{
+    color: #5fffe6;
+}
+.members .member{
+    display: flex;
+    justify-content: space-between;
+}
+.members .member li{
+    padding: 36px 30px;
+    text-align: center;
+    max-width: 275px;
+    box-sizing: border-box;
+    height: 342px;
+    margin-top: 15px;
+    transition: transform 0.5s;
+}
+.members .member li .nameTop{
+    font-weight: bold;
+    font-size: 18px;
+}
+.members .member li .desc{
+    max-width: 215px;
+    display: inline-block;
+    font-weight: normal!important;
+    opacity: 0.8;
+}
+.members .member li:hover{
+    background: #093B60;
+    box-shadow: 2px 2px 20px 0px rgba(2, 32, 54, 0.39);
+    filter: blur(0px);
+    cursor: pointer;
+    transform: translate(0,-15px);
+}
+.members .member img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-bottom: 24px;
+}
+
+.projects .container{
+  padding: 95px 43px 0;
+}
+.projects .bg2title{
+    background:url("../images/investments.png") no-repeat;
+    height: 84px;
+    color: #61ffdf;
+    font-family: DINCondensedBold;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding:26px 0 57px  74px;
+    margin-bottom: 68px;
+}
+.projects .projectBrdr{
+
+    width: 100%;
+}
+.projects .projectBrdr ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.projects .projectBrdr li{
+    width: 329px;
+    height: 525px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #002C4C;
+    line-height: 25px;
+    box-sizing: border-box;
+    padding: 10px 24px;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.projects .projectBrdr li:hover{
+    transform: translate(0,-20px);
+}
+.projects .projectBrdr li .tit{
+    position: absolute;
+    left: 24px;
+    bottom: 46px;
+    width: 228px;
+    height: 46px;
+    font-size: 46px;
+    font-family: DINCondensedBold;
+    font-weight: bold;
+    color: #000000;
+    line-height: 55px;
+}
+.projects .projectBrdr li:first-child{
+    background: #BCFF8D;
+}
+.projects .projectBrdr li:nth-child(2){
+      background: #5DFFE4;
+  }
+.projects .projectBrdr li:nth-child(3){
+      background: #72F444;
+  }
+.projects .projectBrdr li img{
+    padding-bottom: 20px;
+}
+.projects .projectBrdr li a{
+    color: #0079ff;
+}
+.projects .scrollBrdr{
+
+    margin: 39px auto;
+}
+.projects .scrollBrdr .scrollBg{
+    width: 80px;
+    height: 10px;
+    background: rgba(5, 210, 102, 0.22);
+    border-radius: 5px;
+}
+.projects .scrollBrdr .scroller{
+    width: 36px;
+    height: 10px;
+    background: #05D266;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    background: rgba(9, 59, 96, 0.75);
+    padding: 130px 0 60px;
+    text-align: center;
+}
+footer .know{
+    font-size: 60px;
+    font-family:DINCondensedBold;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 72px;
+    letter-spacing: 2px;
+    padding-bottom: 37px;
+}
+footer .show{
+    width: 365px;
+    height: 60px;
+    display: inline-block;
+    background: linear-gradient(270deg, #55EA20 0%, #8FFF00 100%);
+    font-size: 23px;
+    font-weight: 400;
+    color: #000000;
+    line-height:60px;
+    letter-spacing: 1px;
+    margin-bottom: 147px;
+}
+footer .contactbrdr{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer .contBg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+footer .contBg img{
+    width: 100%;
+}
+footer .contactbrdr .qrcode{
+    display: inline-block;
+    width: 132px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    padding: 22px 0;
+}
+footer .copyright{
+    padding-top: 23px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.45);
+    line-height: 20px;
+}
+footer .contactbrdr .nameTop{
+    font-weight: bold;
+    font-size: 18px;
+}
+footer .contactbrdr .desc{
+    max-width: 215px;
+    display: inline-block;
+    font-weight: normal!important;
+    opacity: 0.8;
+}
+footer .cont{
+    display: inline-block;
+    text-align: left;
+}
