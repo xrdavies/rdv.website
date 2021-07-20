@@ -20,11 +20,8 @@ a:hover{
 /*header*/
 header{
     padding-top: 33px;
-    position: fixed;
-    top: 0;
     width: 100vw;
     z-index: 99;
-    background: #002C4C;
     padding-bottom:20px;
 }
 header .logo img{
@@ -54,7 +51,7 @@ header .collapse{
 
 /*banner*/
 .banner .container{
-    padding: 140px 43px 0;
+    padding:40px 43px 0;
 }
 .banner h1{
     padding-top: 12px;
@@ -127,6 +124,11 @@ header .collapse{
     position: relative;
     width: 410px;
     height: 300px;
+}
+.banner .bulb{
+    position: absolute;
+    right: 50px;
+    top: 30px;
 }
 
 /*philosophy*/
@@ -264,7 +266,7 @@ header .collapse{
 }
 
 .projects .container{
-  padding: 95px 43px 0;
+  padding: 95px 43px 50px;
 }
 .projects .bg2title{
     background:url("../images/investments.png") no-repeat;
@@ -288,7 +290,7 @@ header .collapse{
 }
 .projects .projectBrdr li{
     width: 329px;
-    height: 525px;
+    height: 440px;
     font-size: 18px;
     font-weight: 400;
     color: #002C4C;
@@ -296,24 +298,29 @@ header .collapse{
     box-sizing: border-box;
     padding: 10px 24px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
     cursor: pointer;
     transition: transform 0.5s;
 }
 .projects .projectBrdr li:hover{
-    transform: translate(0,-20px);
+    transform: translate(0,-15px);
 }
+.projects .projectBrdr li .firstTR{
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 .projects .projectBrdr li .tit{
-    position: absolute;
-    left: 24px;
-    bottom: 46px;
-    width: 228px;
-    height: 46px;
-    font-size: 46px;
+
     font-family: DINCondensedBold;
+    font-size: 46px;
+
     font-weight: bold;
-    color: #000000;
-    line-height: 55px;
+    color: #002C4C;
+    line-height: 1em;
 }
 .projects .projectBrdr li:first-child{
     background: #BCFF8D;
@@ -332,7 +339,7 @@ header .collapse{
 }
 .projects .scrollBrdr{
 
-    margin: 39px auto;
+    margin-top: 39px;
 }
 .projects .scrollBrdr .scrollBg{
     width: 80px;
@@ -362,7 +369,7 @@ footer .know{
     letter-spacing: 2px;
     padding-bottom: 37px;
 }
-footer .show{
+footer .show a{
     width: 365px;
     height: 60px;
     display: inline-block;
@@ -372,7 +379,11 @@ footer .show{
     color: #000000;
     line-height:60px;
     letter-spacing: 1px;
-    margin-bottom: 147px;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+footer .show a:hover{
+    background: linear-gradient(270deg, #37FF3F 0%, #B6FF1C 100%);
 }
 footer .contactbrdr{
     width: 100%;

@@ -1,4 +1,8 @@
 @media (max-width: 769px) {
+    body,html,*{
+        padding: 0;
+        margin: 0;
+    }
     header{
         position: relative;
         padding-top: 0;
@@ -8,7 +12,7 @@
         padding-top: 16px;
     }
     header .logo img{
-        width: 98px;
+        width: 150px;
     }
     .navbar-toggler{
         display: block;
@@ -16,7 +20,10 @@
         text-align: right;
     }
     .nav-item a{
-        font-size: 11px;
+        font-size: 15px;
+    }
+    .nav-link {
+        padding: 1rem;
     }
     header .navbar{
         padding: 0;
@@ -45,6 +52,7 @@
         width: 65vw;
         top:0;
         right: 0;
+        bottom: 0;
         z-index: 999;
         display: flex;
         flex-direction: column;
@@ -71,19 +79,18 @@
         display: flex;
         width: 100%;
         box-sizing: border-box;
-        padding: 20px 25px;
+        padding: 20px;
         justify-content: space-between;
         align-items: center;
     }
     .logo375 .logoRht{
-        width: 98px;
-        height: 17px;
+        width: 150px;
     }
     .closeRht{
-        width: 26px;
+        width: 22px;
     }
     .navbar-toggler-icon{
-        width: 13px;
+        width: 22px;
     }
     .navbar-toggler-icon img{
         width: 100%;
@@ -93,17 +100,16 @@
     }
 
     .banner h1{
-        font-size: 30px;
-        line-height: 1.2em;
-        white-space: nowrap;
+        font-size: 31px;
+        line-height: 1em;
     }
     .nameAll{
         display: inline-block;
     }
     .banner .desc{
-        font-size: 9px;
+        font-size: 15px;
         padding-bottom: 0;
-        line-height: 1.8em;
+        line-height: 1.2em;
     }
     .banner dl{
         display: flex;
@@ -150,17 +156,20 @@
         padding: 50px 33px 0;
     }
     .philosophy .bg1title{
-        background-size: 162px 40px;
-        font-size: 17px;
-        padding:14px 0 30px  10px;
-        margin-bottom: 0;
-        height: 50px;
+        display: inline-block;
+        /*background-size: 162px 40px;*/
+        background-size: contain;
+        font-size: 23px;
+        padding:22px 35px 40px  20px;
+        margin-bottom: 15px;
     }
     .philosophy .phCont img{
-        width: 50px;
+        width: 75px;
     }
     .philosophy .phCont{
-        font-size: 15px;
+        font-size: 23px;
+        letter-spacing: 1.2px;
+        line-height: 1em;
         font-family: DINCondensedBold;
     }
     .philosophy .phCont .row > div{
@@ -173,37 +182,52 @@
         font-size: 28px;
         line-height: 1.2em;
         width: auto;
+        letter-spacing: 1.2px;
     }
     .members .topTit span{
         display: inline-block;
         width: 100%;
     }
     .members .member li{
-        padding: 0;
         height:auto;
         margin-top: 0;
-        transition:none;
+        padding: 20px 10px;
         margin-bottom: 20px;
+        transition: transform 0.5s;
+    }
+    .members .member li:hover{
+        background: none;
+        box-shadow:none;
+        filter:none;
+        cursor: pointer;
+        transform: none;
+    }
+    .hover{
+        background: #093B60!important;
+        box-shadow: 2px 2px 20px 0px rgba(2, 32, 54, 0.39)!important;
+        filter: blur(0px)!important;
+        cursor: pointer!important;
+        transform: translate(0,-15px)!important;
     }
     .members .member img{
-        width: 75px;
-        height: 75px;
+        width: 80px;
+        height: 80px;
         margin-bottom: 15px;
     }
     .members .member li .nameTop{
-        font-size: 9px;
+        font-size: 15px;
     }
     .members .member li .desc{
-        font-size: 8px;
+        font-size: 15px;
     }
     .projects .container{
         padding: 40px 33px 0;
     }
     .projects .bg2title{
-        background-size: 151px 41px;
-        font-size: 17px;
-        height: 50px;
-        padding:13px 0 30px  37px;
+        display: inline-block;
+        background-size: contain;
+        font-size: 23px;
+        padding:17px 80px 25px 50px;
         margin-bottom: 0;
     }
     .projects .projectBrdr ul {
@@ -221,15 +245,15 @@
         transform: none;
     }
     .projects .projectBrdr li .tit{
-        left: 12px;
-        bottom: 0;
-         top:10px;
+        /*left: 12px;*/
+        /*bottom: 0;*/
+        /* top:10px;*/
         font-size: 23px;
     }
     .projects .projectBrdr li .logoA{
-        right: 15px;
-         top:20px;
-        position: absolute;
+        /*right: 15px;*/
+        /* top:20px;*/
+        /*position: absolute;*/
         height: 44px;
     }
     .projects .projectBrdr li .logoA img{
@@ -237,7 +261,6 @@
         padding-bottom: 0;
     }
     .projects .projectBrdr li .desc{
-        padding-top: 60px;
         line-height: 1.8em;
     }
     .projects .scrollBrdr{
@@ -258,11 +281,12 @@
         font-size: 30px;
         line-height: 1.2em;
         padding-bottom: 18px;
+        letter-spacing: 1px;
     }
-    footer .show{
-        width: 184px;
+    footer .show a{
+        width: 220px;
         height: 30px;
-        font-size: 12px;
+        font-size: 15px;
         line-height:30px;
         margin-bottom: 50px;
     }
@@ -281,13 +305,13 @@
     }
     footer .cont{
         text-align: center;
-        padding-bottom: 19px;
+        padding:10px 0 19px;
     }
     footer .contactbrdr .nameTop{
-        font-size: 9px;
+        font-size: 15px;
     }
     footer .contactbrdr .desc{
-       font-size: 9px;
+       font-size: 15px;
         opacity: 0.8;
     }
     footer .copyright{
