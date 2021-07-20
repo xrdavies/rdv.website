@@ -1,4 +1,23 @@
 $(function () {
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            $("#topBtn").show()
+        } else {
+            $("#topBtn").hide()
+        }
+    };
+
+    $("#topBtn").click(function() {
+        $("html, body").animate({
+            scrollTop: 0 + "px"
+        }, {
+            duration: 600,
+            easing: "linear"
+        });
+
+        return false;
+    });
     $(".nav-item a").click(function() {
         $(".navRhtBrdr").hide()
         let tp = $($(this).attr("href")).offset().top

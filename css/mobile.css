@@ -248,15 +248,9 @@
         transform: none;
     }
     .projects .projectBrdr li .tit{
-        /*left: 12px;*/
-        /*bottom: 0;*/
-        /* top:10px;*/
         font-size: 23px;
     }
     .projects .projectBrdr li .logoA{
-        /*right: 15px;*/
-        /* top:20px;*/
-        /*position: absolute;*/
         height: 44px;
     }
     .projects .projectBrdr li .logoA img{
