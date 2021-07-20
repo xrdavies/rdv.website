@@ -150,6 +150,11 @@ header .collapse{
     display: flex;
     justify-content: space-between;
     text-align: center;
+
+}
+.philosophy .phCont .title{
+    font-family: 'AlibabaSans-Medium';
+    font-size: 15px;
 }
 .philosophy .phCont img{
     width: 100px;
