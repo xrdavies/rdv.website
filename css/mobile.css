@@ -239,7 +239,7 @@
     }
     .projects .projectBrdr li{
         height: auto;
-        font-size: 9px;
+        font-size: 15px;
         padding: 10px 12px 25px;
         width: 100%;
         min-height:168px ;
@@ -264,7 +264,7 @@
         padding-bottom: 0;
     }
     .projects .projectBrdr li .desc{
-        line-height: 1.8em;
+        line-height: 1.2em;
     }
     .projects .scrollBrdr{
         margin: 14px auto 27px;
