@@ -155,6 +155,7 @@ header .collapse{
 .philosophy .phCont .title{
     font-family: 'AlibabaSans-Medium';
     font-size: 15px;
+    letter-spacing: 0;
 }
 .philosophy .phCont img{
     width: 100px;
