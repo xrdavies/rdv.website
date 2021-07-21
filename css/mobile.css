@@ -18,9 +18,10 @@
     }
     .navbar-toggler{
         display: block;
-        padding-top: 16px;
+        padding-top: 20px;
         text-align: right;
         padding-right: 20px;
+
     }
     .nav-item a{
         font-size: 15px;
@@ -315,5 +316,15 @@
 
         font-size: 9px;
 
+    }
+    .lan{
+        top:21px;
+        right: 60px;
+    }
+    .banner .bulb{
+        position: absolute;
+        right: 80px;
+        top:27px;
+        width: 78px;
     }
 }

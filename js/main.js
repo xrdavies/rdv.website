@@ -19,8 +19,8 @@ $(function () {
         return false;
     });
     $(".nav-item a").click(function() {
-        $(".navRhtBrdr").hide()
-        let tp = $($(this).attr("href")).offset().top
+        $(".navRhtBrdr").hide();
+        let tp = $($(this).attr("href")).offset().top;
 
         $("html, body").animate({
             scrollTop: (tp) + "px"
@@ -53,8 +53,8 @@ $(function () {
     })
 
     $("#select").click(function (e) {
-        e.stopPropagation()
-        $(this).find("ul").show(500)
+        e.stopPropagation();
+        $(this).find("ul").show(500);
         $(this).find(".selectbg").addClass("trans90")
     })
 
@@ -66,7 +66,7 @@ $(function () {
 
     });
     $("#select li").click(function (e) {
-        e.stopPropagation()
+        e.stopPropagation();
         $("#select ul").hide(500);
         if($(".selectbg").hasClass("trans90")){
             $(".selectbg").removeClass("trans90")

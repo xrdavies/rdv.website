@@ -45,13 +45,13 @@ header .collapse{
 
 #navbar{
     display: block;
-    padding-right: 100px;
+    padding-right: 80px;
     position: relative;
 }
-#navbar .lan{
+.lan{
     position: absolute;
     right: 0;
-    top: 8px;
+    top: 16px;
 }
 #navRht{
     display: none;
