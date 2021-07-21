@@ -45,6 +45,13 @@ header .collapse{
 
 #navbar{
     display: block;
+    padding-right: 100px;
+    position: relative;
+}
+#navbar .lan{
+    position: absolute;
+    right: 0;
+    top: 8px;
 }
 #navRht{
     display: none;
@@ -470,3 +477,37 @@ footer .cont{
 #topBtn:hover {
     background: url("../images/top-hover.png");
 }
+#select{
+    position: relative;
+    cursor: pointer;
+    width: 70px;
+}
+#select .topSelect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#select ul{
+    display: none;
+    position: absolute;
+    top: 32px;
+    line-height: 2em;
+}
+#select span{
+    flex-grow: 1;
+}
+.selectbg{
+    transition: all .2s;
+}
+.trans90{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+#select li{
+    cursor: pointer;
+}
+#select li:hover{
+    color: #05d266;
+}
+
+
