@@ -6,5 +6,5 @@ languages: ["en", "cn"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
 baseurl: ""
-url: ""
+url: "https://teamtaoist.github.io/rdv.website"
 
