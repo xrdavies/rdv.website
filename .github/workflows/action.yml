@@ -39,6 +39,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: "${{ github.token }}"
-          publish_branch: main
+          publish_branch: master
           publish_dir: _site
 
