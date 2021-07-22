@@ -51,7 +51,7 @@ projects:
     - image: /assets/images/projects/logo3.png
       title: CryptoC
       desc: CryptoC is an influential NFT-focused community in China, connecting artists, collectors, NFT projects, and public chains. Approximately all the Chinese NFT KOLs gather in CryptoC, talking about the hot spots about NFT topics.
-
+      href: https://www.wavec.cn
 
 footer:
   title: Do you want to know more?
