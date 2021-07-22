@@ -1,0 +1,20 @@
+<div class="philosophy" id="Investment">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="bg1title">{% t philosophy.title%}</div>
+            </div>
+        </div>
+        <div class="phCont">
+            <div class="row">
+                {% for item in site.translations[site.lang].philosophy.list %}
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <img src="{{site.url}}/assets/images/icon0{{ forloop.index }}.png" alt="">
+                        <div class="title">{{ item.liTitle }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</div>

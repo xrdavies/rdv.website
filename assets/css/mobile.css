@@ -161,10 +161,13 @@
     }
     .philosophy .bg1title{
         display: inline-block;
-        /*background-size: 162px 40px;*/
+        /*background-size: 220px 50px;*/
         background-size: contain;
         font-size: 23px;
-        padding:22px 35px 40px  20px;
+        /*padding:22px 35px 40px  20px;*/
+        width: 250px;
+        line-height:3.2em;
+        padding-left:20px ;
         margin-bottom: 15px;
     }
     .philosophy .phCont img{

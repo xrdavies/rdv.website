@@ -73,6 +73,41 @@ $(function () {
         }
         let valueStr = $(this).data("lan");
         $("#select span").html(valueStr);
-    })
+
+        let href= window.location.protocol+"//"+window.location.host;
+        if(valueStr === '中文'){
+            window.location.href = href +"/cn"
+        }else{
+            window.location.href = href
+        }
+    });
+    switchAddress();
+
+    let scale = ($('#sourceDiv')[0].scrollWidth, $('#sourceDiv')[0].clientWidth) /
+        ($('#targetDiv')[0].scrollWidth - $('#targetDiv')[0].clientWidth)
+    let flag = true
+    $('#sourceDiv').mouseover(function() {
+        flag = false
+        $('#sourceDiv').scroll(function() {
+            if (!flag) {
+                $('#targetDiv').scrollLeft($(this).scrollLeft() / scale);
+            }
+        })
+    });
+    $('#targetDiv').mouseover(function() {
+        flag = true;
+        $('#targetDiv').scroll(function() {
+            if (flag) {
+                $('#sourceDiv').scrollLeft($(this).scrollLeft() * scale);
+            }
+        })
+    });
 
 });
+function switchAddress(){
+    if(window.location.href.indexOf('/cn')>-1){
+        $("#select span").html('中文')
+    }else{
+        $("#select span").html('English')
+    }
+}

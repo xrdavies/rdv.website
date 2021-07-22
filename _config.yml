@@ -1,0 +1,10 @@
+title: Rebase D.Ventures
+
+description: Explore the Web 3.0 world's frontier and spread tech ideas by supporting outstanding developers, teams, and projects with the help of ventures derived from the Rebase community.
+
+languages: ["en", "cn"]
+exclude_from_localizations: ["javascript", "images", "css"]
+
+baseurl: ""
+url: ""
+

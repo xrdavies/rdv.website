@@ -167,7 +167,9 @@ header .collapse{
     font-size: 34px;
     font-weight: bold;
     letter-spacing: 1px;
-    padding:28px 0 57px  24px;
+    line-height: 3em;
+    padding-left: 24px ;
+    /*padding:28px 0 57px  24px;*/
     margin-bottom: 68px;
 }
 .philosophy .phCont .row{
@@ -296,7 +298,7 @@ header .collapse{
 }
 
 .projects .container{
-  padding: 95px 43px 50px;
+  padding: 95px 43px 10px;
 }
 .projects .bg2title{
     background:url("../images/investments.png") no-repeat;
@@ -310,17 +312,20 @@ header .collapse{
     margin-bottom: 68px;
 }
 .projects .projectBrdr{
-
     width: 100%;
+    overflow-x: auto;
 }
 .projects .projectBrdr ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
+    flex-wrap: nowrap;
 }
 .projects .projectBrdr li{
+    flex-shrink: 0;
     width: 329px;
     height: 440px;
+    margin-right: 33px;
     font-size: 18px;
     font-weight: 400;
     color: #002C4C;
@@ -352,14 +357,26 @@ header .collapse{
     color: #002C4C;
     line-height: 1em;
 }
-.projects .projectBrdr li:first-child{
+.projects .projectBrdr li:nth-child(7n+1){
     background: #BCFF8D;
 }
-.projects .projectBrdr li:nth-child(2){
+.projects .projectBrdr li:nth-child(7n+2){
       background: #5DFFE4;
   }
-.projects .projectBrdr li:nth-child(3){
+.projects .projectBrdr li:nth-child(7n+3){
       background: #72F444;
+  }
+.projects .projectBrdr li:nth-child(7n+4){
+      background: #F8CE62;
+  }
+.projects .projectBrdr li:nth-child(7n+5){
+      background: #57ACFF;
+  }
+.projects .projectBrdr li:nth-child(7n+6){
+      background: #C6FF5D;
+  }
+.projects .projectBrdr li:nth-child(7n){
+      background: #30F5C0;
   }
 .projects .projectBrdr li img{
     padding-bottom: 20px;
@@ -509,5 +526,40 @@ footer .cont{
 #select li:hover{
     color: #05d266;
 }
+#targetDiv{
+    width: 100px;
+    height: 16px;
+    margin: 39px auto ;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#targetDiv div{
+    width: 1000px;
+    height: 200px;
+}
 
+#Projects ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    /*background-color: #F5F5F5;*/
+}
 
+#Projects ::-webkit-scrollbar-track {
+    width: 80px;
+    height: 10px;
+    background: rgba(5, 210, 102, 0.22);
+    border-radius: 5px;
+}
+
+#Projects ::-webkit-scrollbar-thumb {
+
+    width: 36px;
+    height: 10px;
+    background: #05D266;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sourceDiv::-webkit-scrollbar {
+    display: none;
+}
