@@ -2,7 +2,7 @@ name: Ruby
 
 on:
   push:
-    branches: [ gh-pages ]
+    branches: [ gh-page ]
 
 jobs:
   build:
@@ -11,10 +11,10 @@ jobs:
       matrix:
         ruby: [2.3.1]
     steps:
-      - name: Check out gh-pages
+      - name: Check out gh-page
         uses: actions/checkout@v2
         with:
-          ref: gh-pages
+          ref: gh-page
       - uses: actions/cache@v2
         with:
           path: ~/.cache
