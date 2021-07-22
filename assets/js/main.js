@@ -79,7 +79,8 @@ $(function () {
         if(valueStr === '中文'){
             window.location.href = href +"/cn"
         }else{
-            window.location.href = href
+
+            window.location.href = href.split('/cn')[0]
         }
     });
     switchAddress();
