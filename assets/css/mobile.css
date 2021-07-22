@@ -226,7 +226,7 @@
         font-size: 15px;
     }
     .projects .container{
-        padding: 40px 33px 0;
+        padding: 40px 33px 50px;
     }
     .projects .bg2title{
         display: inline-block;
@@ -327,5 +327,8 @@
         right: 80px;
         top:27px;
         width: 78px;
+    }
+    #targetDiv{
+        display: none;
     }
 }

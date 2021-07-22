@@ -297,7 +297,7 @@ header .collapse{
 }
 
 .projects .container{
-  padding: 95px 43px 10px;
+  padding: 95px 43px 50px;
 }
 .projects .bg2title{
     background:url("../images/investments.png") no-repeat;
@@ -528,7 +528,7 @@ footer .cont{
 #targetDiv{
     width: 100px;
     height: 16px;
-    margin: 39px auto ;
+    margin: 39px auto 0;
     overflow-x: scroll;
     overflow-y: hidden;
 }
