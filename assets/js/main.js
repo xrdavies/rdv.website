@@ -74,7 +74,8 @@ $(function () {
         let valueStr = $(this).data("lan");
         $("#select span").html(valueStr);
 
-        let href= window.location.protocol+"//"+window.location.host;
+        // let href= window.location.protocol+"//"+window.location.host;
+        let href= window.location.href;
         if(valueStr === '中文'){
             window.location.href = href +"/cn"
         }else{
