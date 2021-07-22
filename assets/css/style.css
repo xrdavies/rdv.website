@@ -118,7 +118,6 @@ header .collapse{
     }
     100% {
         top: -177px;
-        /*top: -99px;*/
         right: -100px;
         width:700px;
     }
@@ -541,7 +540,6 @@ footer .cont{
 #Projects ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
-    /*background-color: #F5F5F5;*/
 }
 
 #Projects ::-webkit-scrollbar-track {
