@@ -8,12 +8,12 @@
         <ul class="row member">
             {% for item in site.translations[site.lang].members.list %}
                 <li class="col-6 col-sm-6 col-md-6 col-lg-4">
-                    <img src="{{ item.image }}" alt="">
+                    <img src="{{site.url}}{{ item.image }}" alt="">
                     <div class="nameTop">{{ item.name }}</div>
                     <div class="desc">{{ item.desc }}</div>
                 </li>
             {% endfor %}
-
+                <li class="col-6 col-sm-6 col-md-6 col-lg-4 temp"></li>
         </ul>
     </div>
 

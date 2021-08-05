@@ -45,7 +45,7 @@ header .collapse{
 
 #navbar{
     display: block;
-    padding-right: 80px;
+    /*padding-right: 80px;*/
     position: relative;
 }
 .lan{
@@ -262,6 +262,19 @@ header .collapse{
 .members .member{
     display: flex;
     justify-content: space-between;
+}
+.members .temp{
+    height: 0;
+    margin-bottom: 0;
+    border: none;
+    padding: 0;
+}
+.members .member li.temp:hover{
+    background: transparent;
+    box-shadow: none;
+    filter: none;
+    cursor: none;
+    transform:none;
 }
 .members .member li{
     padding: 36px 30px;

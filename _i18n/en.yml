@@ -24,18 +24,21 @@ philosophy:
 members:
   title: INTRODUCTION OF OUR <span>MEMBERS</span>
   list:
-    - image: https://img1.baidu.com/it/u=114216796,4131159927&fm=26&fmt=auto&gp=0.jpg
-      name: James Waugh
-      desc: Founder @ Axia Labs, DAOs @ MetaCartel + RaidGuild
-    - image: https://img1.baidu.com/it/u=114216796,4131159927&fm=26&fmt=auto&gp=0.jpg
-      name: James Waugh
-      desc: Founder @ Axia Labs, DAOs @ MetaCartel + RaidGuild
-    - image: https://img1.baidu.com/it/u=114216796,4131159927&fm=26&fmt=auto&gp=0.jpg
-      name: James Waugh
-      desc: Founder @ Axia Labs, DAOs @ MetaCartel + RaidGuild
-    - image: https://img1.baidu.com/it/u=114216796,4131159927&fm=26&fmt=auto&gp=0.jpg
-      name: James Waugh
-      desc: Founder @ Axia Labs, DAOs @ MetaCartel + RaidGuild
+    - image: /assets/images/photo/image1.png
+      name: Frozen
+      desc: Cofounder @Rebase, Partner @Rebase D. Ventures
+    - image: /assets/images/photo/image2.png
+      name: Harry Liu
+      desc: Cofounder @Rebase, Partner @Rebase D. Ventures
+    - image: /assets/images/photo/image3.png
+      name: Shooter Liu
+      desc: Cofounder @Rebase, Partner @Rebase D. Ventures
+    - image: /assets/images/photo/image4.png
+      name: River Zhou
+      desc: Cofounder @Rebase, Partner @Rebase D. Ventures
+    - image: /assets/images/photo/image5.png
+      name: Bob
+      desc: Cofounder @Rebase, Partner @Rebase D. Ventures,Founder @HiBlock_Net,Gitcoin Steward
 
 projects:
   title: Projects
