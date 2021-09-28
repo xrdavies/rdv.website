@@ -10,8 +10,8 @@ banner:
   description:  Explore the Web 3.0 world's frontier and spread tech ideas by supporting outstanding developers, teams, and projects with the help of ventures derived from the Rebase community.
   driven: Community Driven
   community: Run as DAO
-  ocommunity: OOOO
-  public: Public
+  ocommunity: Developer Partners
+  public: Public Ventures
 
 philosophy:
   title: Our Philosophy
@@ -24,21 +24,21 @@ philosophy:
 members:
   title: OUR <span>MEMBERS</span>
   list:
-    - image: /assets/images/photo/image1.png
+    - image: /assets/images/photo/portrait-frozen.png
       name: Frozen
-      desc: Cofounder @Rebase, Partner @Rebase D. Ventures
-    - image: /assets/images/photo/image2.png
+      desc: Partner @Rebase D. Ventures, Cofounder @Rebase
+    - image: /assets/images/photo/portrait-harry.png
       name: Harry Liu
-      desc: Cofounder @Rebase, Partner @Rebase D. Ventures
-    - image: /assets/images/photo/image3.png
+      desc: Partner @Rebase D. Ventures, Cofounder @Rebase
+    - image: /assets/images/photo/portrait-shooter.png
       name: Shooter Liu
-      desc: Cofounder @Rebase, Partner @Rebase D. Ventures
-    - image: /assets/images/photo/image4.png
+      desc: Partner @Rebase D. Ventures, Cofounder @Rebase
+    - image: /assets/images/photo/portrait-river.png
       name: River Zhou
-      desc: Cofounder @Rebase, Partner @Rebase D. Ventures
-    - image: /assets/images/photo/image5.png
+      desc: Partner @Rebase D. Ventures, Cofounder @Rebase
+    - image: /assets/images/photo/portrait-bob.png
       name: Bob
-      desc: Cofounder @Rebase, Partner @Rebase D. Ventures,Founder @HiBlock_Net,Gitcoin Steward
+      desc: Partner @Rebase D. Ventures, Cofounder @Rebase, Founder @HiBlock_Net, Gitcoin Steward
 
 projects:
   title: Projects
@@ -47,14 +47,14 @@ projects:
       title: OpenSky
       desc: A freer, smarter NFT marketplace. A DeFi protocol that enables NFT stakers to value their NFTs and borrow on demand while maintaining control.
       href: https://home.opensky.finance/
-    - image: /assets/images/projects/logo-teaproject.png
-      title: TEA Project
-      desc: TEA Project is a decentralized cloud computing platform that hosts rich decentralized applications. TEA Project combines good parts from both blockchain and cloud computing.
-      href: https://teaproject.org
     - image: /assets/images/projects/logo-cryptoc.png
       title: CryptoC
       desc: CryptoC is an influential NFT-focused community in China, connecting artists, collectors, NFT projects, and public chains. Approximately all the Chinese NFT KOLs gather in CryptoC, talking about the hot spots about NFT topics.
       href: https://www.wavec.cn
+    - image: /assets/images/projects/logo-teaproject.png
+      title: TEA Project
+      desc: TEA Project is a decentralized cloud computing platform that hosts rich decentralized applications. TEA Project combines good parts from both blockchain and cloud computing.
+      href: https://teaproject.org
     - image: /assets/images/projects/logo-apron.png
       title: Apron Network
       desc: Apron Network is a decentralized infrastructure services platform for DApp developers, DApp users, and services providers. By using Apron Network, services providers and services users can project their privacy by keeping anonymous.
@@ -64,7 +64,7 @@ footer:
   title: Do you want to know more?
   button: Show us your ideas！
   name: Frozen
-  desc: Partner@Rebase D. Ventures Co-founder@Rebase Founder@Skypiea Labs
+  desc: Partner@Rebase D. Ventures Cofounder@Rebase Founder@Skypiea Labs
   image: /assets/images/qrcode.png
 
 copyright: 2021 © Rebase D. Ventures all rights reserved.
