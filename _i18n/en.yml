@@ -43,24 +43,28 @@ members:
 projects:
   title: Projects
   list:
-    - image: /assets/images/projects/logo1.png
-      title: Apron Network
-      desc: Apron Network is a decentralized infrastructure services platform for DApp developers, DApp users, and services providers. By using Apron Network, services providers and services users can project their privacy by keeping anonymous.
-      href: https://apron.network
-    - image: /assets/images/projects/logo2.png
+    - image: /assets/images/projects/logo-opensky.png
+      title: OpenSky
+      desc: A freer, smarter NFT marketplace. A DeFi protocol that enables NFT stakers to value their NFTs and borrow on demand while maintaining control.
+      href: https://home.opensky.finance/
+    - image: /assets/images/projects/logo-teaproject.png
       title: TEA Project
       desc: TEA Project is a decentralized cloud computing platform that hosts rich decentralized applications. TEA Project combines good parts from both blockchain and cloud computing.
       href: https://teaproject.org
-    - image: /assets/images/projects/logo3.png
+    - image: /assets/images/projects/logo-cryptoc.png
       title: CryptoC
       desc: CryptoC is an influential NFT-focused community in China, connecting artists, collectors, NFT projects, and public chains. Approximately all the Chinese NFT KOLs gather in CryptoC, talking about the hot spots about NFT topics.
       href: https://www.wavec.cn
+    - image: /assets/images/projects/logo-apron.png
+      title: Apron Network
+      desc: Apron Network is a decentralized infrastructure services platform for DApp developers, DApp users, and services providers. By using Apron Network, services providers and services users can project their privacy by keeping anonymous.
+      href: https://apron.network
 
 footer:
   title: Do you want to know more?
   button: Show us your ideas！
   name: Frozen
-  desc: Cofounder@Rebase Partner@Rebase D. Ventures Founder@Skypiea Labs
+  desc: Partner@Rebase D. Ventures Co-founder@Rebase Founder@Skypiea Labs
   image: /assets/images/qrcode.png
 
-copyright: 2021 © all rights reserved.REBASE D.VENTURES
+copyright: 2021 © Rebase D. Ventures all rights reserved.
