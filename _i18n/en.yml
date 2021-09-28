@@ -1,28 +1,28 @@
 nav:
   Home: Home
-  Investment: Investment
+  Investment: Philosophy
   Members: Members
   Projects: Projects
   Contact: Contact
 
 banner:
-  title: What is <br>Rebase D.Ventures?
+  title: What is <br>Rebase D. Ventures?
   description:  Explore the Web 3.0 world's frontier and spread tech ideas by supporting outstanding developers, teams, and projects with the help of ventures derived from the Rebase community.
-  driven: DAO Driven
-  community: Community
-  ocommunity: O community
+  driven: Community Driven
+  community: Run as DAO
+  ocommunity: OOOO
   public: Public
 
 philosophy:
-  title: Investment philosophy
+  title: Our Philosophy
   list:
     - liTitle: Fostering the Web 3.0
-    - liTitle: Opensource
-    - liTitle: Technology first
+    - liTitle: Opensource Only
+    - liTitle: Technology First
     - liTitle: Early-stage
 
 members:
-  title: INTRODUCTION OF OUR <span>MEMBERS</span>
+  title: OUR <span>MEMBERS</span>
   list:
     - image: /assets/images/photo/image1.png
       name: Frozen
