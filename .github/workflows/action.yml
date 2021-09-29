@@ -44,4 +44,4 @@ jobs:
           github_token: "${{ github.token }}"
           publish_branch: gh-page
           publish_dir: _site
-        cname: rebased.ventures
+          cname: rebased.ventures
