@@ -6,5 +6,5 @@ languages: ["en", "cn"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
 baseurl: ""
-url: "https://teamtaoist.github.io/rdv.website"
+url: "https://rebased.ventures"
 

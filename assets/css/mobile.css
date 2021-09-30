@@ -183,6 +183,7 @@
     }
     .members .container{
         padding: 50px 33px 0;
+        background: #ffff00;
     }
     .members .topTit{
         font-size: 28px;
@@ -194,12 +195,16 @@
         display: inline-block;
         width: 100%;
     }
+    .members .member{
+        margin-left: 0;
+    }
     .members .member li{
         height:auto;
         margin-top: 0;
         padding: 20px 10px;
         margin-bottom: 20px;
         transition: transform 0.5s;
+        margin-left: 0;
     }
     .members .member li:hover{
         background: none;
