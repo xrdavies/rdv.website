@@ -51,7 +51,7 @@ projects:
   list:
     - image: /assets/images/projects/logo-opensky.png
       title: OpenSky
-      desc: A freer, smarter NFT marketplace. A DeFi protocol that enables NFT stakers to value their NFTs and borrow on demand while maintaining control.
+      desc: A freer, smarter NFT marketplace. A DeFi protocol that enables NFT stakers to value their NFTs and borrow on demand while maintaining control. The first integrated peer-to-pool and peer-to-peer NFT lending protocol built on top of aave.com.
       href: https://opensky.finance/
     - image: /assets/images/projects/logo-cryptoc.png
       title: CryptoC
