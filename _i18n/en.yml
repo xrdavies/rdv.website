@@ -52,7 +52,7 @@ projects:
     - image: /assets/images/projects/logo-opensky.png
       title: OpenSky
       desc: A freer, smarter NFT marketplace. A DeFi protocol that enables NFT stakers to value their NFTs and borrow on demand while maintaining control.
-      href: https://home.opensky.finance/
+      href: https://opensky.finance/
     - image: /assets/images/projects/logo-cryptoc.png
       title: CryptoC
       desc: CryptoC is an influential NFT-focused community in China, connecting artists, collectors, NFT projects, and public chains. Approximately all the Chinese NFT KOLs gather in CryptoC, talking about the hot spots about NFT topics.
