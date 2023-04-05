@@ -33,9 +33,6 @@ members:
     - image: /assets/images/photo/portrait-shooter.png
       name: Shooter Liu
       desc: Partner @Rebase D. Ventures, Cofounder @Rebase
-    - image: /assets/images/photo/portrait-river.png
-      name: River Zhou
-      desc: Partner @Rebase D. Ventures, Cofounder @Rebase
     - image: /assets/images/photo/portrait-bob.png
       name: Bob
       desc: Partner @Rebase D. Ventures, Cofounder @Rebase, Founder @HiBlock, Steward @Gitcoin
@@ -45,6 +42,15 @@ members:
     - image: /assets/images/photo/portrait-hammer.png
       name: Mr. Hammer
       desc: Partner @Rebase D. Ventures
+    - image: /assets/images/photo/portrait-melvin.png
+      name: Melvin
+      desc: Partner @Rebase D. Ventures
+    - image: /assets/images/photo/portrait-dream.png
+      name: Dream
+      desc: Partner @Rebase D. Ventures
+    - image: /assets/images/photo/portrait-river.png
+      name: River Zhou
+      desc: Partner @Rebase D. Ventures, Cofounder @Rebase
 
 projects:
   title: Projects
