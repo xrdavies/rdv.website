@@ -262,6 +262,7 @@
     }
     .projects .projectBrdr li .logoA img{
         height: 44px;
+        max-width: 180px;
         padding-bottom: 0;
     }
     .projects .projectBrdr li .desc{
