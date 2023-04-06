@@ -394,6 +394,7 @@ header .collapse{
   }
 .projects .projectBrdr li img{
     padding-bottom: 20px;
+    max-width: 180px;
 }
 .projects .projectBrdr li a{
     color: #0079ff;
