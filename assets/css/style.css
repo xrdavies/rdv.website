@@ -3,6 +3,15 @@ body,html{
     color: #ffffff;
     font-family: AlibabaSans-Normal;
     position: relative;
+    overflow-x: hidden;
+
+}
+*{
+    scrollbar-width: none!important;
+}
+*::-webkit-scrollbar {
+    width: 0 ;
+    display: none;
 }
 ul,li{
     padding: 0;
