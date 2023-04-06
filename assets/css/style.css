@@ -6,13 +6,6 @@ body,html{
     overflow-x: hidden;
 
 }
-*{
-    scrollbar-width: none!important;
-}
-*::-webkit-scrollbar {
-    width: 0 ;
-    display: none;
-}
 ul,li{
     padding: 0;
     margin: 0;
