@@ -2,7 +2,7 @@ nav:
   Home: Home
   Investment: Philosophy
   Members: Members
-  Projects: Projects
+  Projects: Portfolios
   Contact: Contact
 
 banner:
@@ -53,16 +53,20 @@ members:
       desc: Partner @Rebase D. Ventures, Cofounder @Rebase
 
 projects:
-  title: Projects
+  title: Portfolios
   list:
-    - image: /assets/images/projects/logo-opensky.png
-      title: OpenSky
-      desc: A freer, smarter NFT marketplace. A DeFi protocol that enables NFT stakers to value their NFTs and borrow on demand while maintaining control. The first integrated peer-to-pool and peer-to-peer NFT lending protocol built on top of aave.com.
-      href: https://opensky.finance/
+    - image: /assets/images/projects/logo-ethstorage.png
+      title: EthStorage
+      desc: Scaling the Storage of the World Computer. A Layer 2 solution provides programmable dynamic storage based on Ethereum's Data Availability. Grant supported by Ethereum Foundation for DA research..
+      href: https://ethstorage.io/
     - image: /assets/images/projects/logo-seedao.png
       title: SeeDAO
       desc: SeeDAO's is a network polis to connect millions nomads in Web3 Our vision is Creating an alternative human living space in cyberspace outside the regional of nation-state.
       href: https://seedao.xyz
+    - image: /assets/images/projects/logo-opensky.png
+      title: OpenSky
+      desc: A freer, smarter NFT marketplace. A DeFi protocol that enables NFT stakers to value their NFTs and borrow on demand while maintaining control. The first integrated peer-to-pool and peer-to-peer NFT lending protocol built on top of aave.com.
+      href: https://opensky.finance/
     - image: /assets/images/projects/logo-cryptoc.png
       title: CryptoC
       desc: CryptoC is an influential NFT-focused community in China, connecting artists, collectors, NFT projects, and public chains. Approximately all the Chinese NFT KOLs gather in CryptoC, talking about the hot spots about NFT topics.
