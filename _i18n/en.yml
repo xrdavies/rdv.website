@@ -51,6 +51,9 @@ members:
     - image: /assets/images/photo/portrait-river.png
       name: River Zhou
       desc: Partner @Rebase D. Ventures, Cofounder @Rebase
+    - image: /assets/images/photo/portrait-mengqi.png
+      name: Meng Qi
+      desc: Partner @Rebase D. Ventures
 
 projects:
   title: Portfolios
