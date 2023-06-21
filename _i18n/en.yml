@@ -35,7 +35,7 @@ members:
       desc: Partner @Rebase D. Ventures, Cofounder @Rebase
     - image: /assets/images/photo/portrait-bob.png
       name: Bob
-      desc: Partner @Rebase D. Ventures, Cofounder @Rebase, Founder @HiBlock, Steward @Gitcoin
+      desc: Partner @Rebase D. Ventures, Cofounder @Rebase, Steward @GitcoinDAO
     - image: /assets/images/photo/portrait-gala.png
       name: Gala Guo
       desc: Partner @Rebase D. Ventures, Cofounder @Rebase
@@ -58,9 +58,13 @@ members:
 projects:
   title: Portfolios
   list:
+    - image: /assets/images/projects/logo-portal-gate.jpeg
+      title: Portal Gate
+      desc: A compliant, decentralized and non-custodial privacy solution leveraging zero-knowledge technology to anonymise on-chain trading and capital flow.
+      href: https://portalgate.me/
     - image: /assets/images/projects/logo-ethstorage.png
       title: EthStorage
-      desc: Scaling the Storage of the World Computer. A Layer 2 solution provides programmable dynamic storage based on Ethereum's Data Availability. Grant supported by Ethereum Foundation for DA research..
+      desc: Scaling the Storage of the World Computer. A Layer 2 solution provides programmable dynamic storage based on Ethereum's Data Availability. Grant supported by Ethereum Foundation for DA research.
       href: https://ethstorage.io/
     - image: /assets/images/projects/logo-seedao.png
       title: SeeDAO
