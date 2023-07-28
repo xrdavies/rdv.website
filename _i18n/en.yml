@@ -58,6 +58,10 @@ members:
 projects:
   title: Portfolios
   list:
+    - image: /assets/images/projects/logo-d3serve.png
+      title: D3Serve Labs
+      desc: Trust, digitized. D3Serve Labs is the core contributor of ERC-5750, ERC-5732, ERC-5679.
+      href: https://twitter.com/D3ServeLabs
     - image: /assets/images/projects/logo-portal-gate.jpeg
       title: Portal Gate
       desc: A compliant, decentralized and non-custodial privacy solution leveraging zero-knowledge technology to anonymise on-chain trading and capital flow.
