@@ -58,6 +58,10 @@ members:
 projects:
   title: Portfolios
   list:
+    - image: /assets/images/projects/logo-joyid.png
+      title: JoyID
+      desc: JoyID is a web-based wallet solution that supports multiple blockchain networks and platforms and is designed to streamline the user experience for everyday users.
+      href: https://twitter.com/joy_protocol
     - image: /assets/images/projects/logo-d3serve.png
       title: D3Serve Labs
       desc: Trust, digitized. D3Serve Labs is the core contributor of ERC-5750, ERC-5732, ERC-5679.
