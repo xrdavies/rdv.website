@@ -42,8 +42,8 @@ members:
     - image: /assets/images/photo/portrait-hammer.png
       name: Mr. Hammer
       desc: Partner @Rebase D. Ventures
-    - image: /assets/images/photo/portrait-melvin.png
-      name: Mr. Melvin
+    - image: /assets/images/photo/portrait-anonymous.png
+      name: Mr. Anonymous
       desc: Partner @Rebase D. Ventures
     - image: /assets/images/photo/portrait-dream.png
       name: Dream
