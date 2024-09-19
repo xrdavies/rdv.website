@@ -90,10 +90,6 @@ projects:
       title: TEA Project
       desc: TEA Project is a decentralized cloud computing platform that hosts rich decentralized applications. TEA Project combines good parts from both blockchain and cloud computing.
       href: https://teaproject.org
-    - image: /assets/images/projects/logo-apron.png
-      title: Apron Network
-      desc: Apron Network is a decentralized infrastructure services platform for DApp developers, DApp users, and services providers. By using Apron Network, services providers and services users can project their privacy by keeping anonymous.
-      href: https://apron.network
 
 footer:
   title: Do you want to know more?
@@ -102,4 +98,4 @@ footer:
   desc: Partner@Rebase D. Ventures Cofounder@Rebase Cofounder@Web3Camp
   image: /assets/images/qrcode.png
 
-copyright: 2023 © Rebase D. Ventures all rights reserved.
+copyright: 2024 © Rebase D. Ventures all rights reserved.
