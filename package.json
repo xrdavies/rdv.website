@@ -1,0 +1,19 @@
+{
+  "name": "rebase-d-ventures-vitepress",
+  "version": "1.0.0",
+  "description": "Rebase D. Ventures Website - VitePress Version",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": ["vitepress", "vue", "web3", "ventures"],
+  "author": "Rebase D. Ventures",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.21",
+    "vue-i18n": "^9.14.5"
+  }
+}

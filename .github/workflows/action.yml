@@ -1,47 +1,33 @@
-name: Ruby
+name: Deploy VitePress
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby: [3.1.1]
     steps:
-      - name: Check out master
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          ref: master
-      - uses: actions/cache@v2
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          path: ~/.cache
-          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: ${{ runner.os }}-gems-
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-
-      - name: gem update
-        run: gem update --system
-
-      - name: Set up Bundler
-        run: gem install bundler
+          node-version: 20
+          cache: npm
 
       - name: Install dependencies
-        run: bundle install
+        run: npm ci
 
-      - name: jekyll build
-        run: bundle exec jekyll build --drafts
+      - name: Build with VitePress
+        run: npm run build
 
-      - name: Create GitHub deployment
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: "${{ github.token }}"
-          publish_branch: gh-page
-          publish_dir: _site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .vitepress/dist
           cname: rebased.ventures

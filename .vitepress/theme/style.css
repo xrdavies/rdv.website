@@ -1,0 +1,426 @@
+/* VitePress Custom Theme Styles */
+
+/* Reset VitePress default styles */
+.vp-doc,
+.VPContent {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.VPNav,
+.VPSidebar,
+.VPFooter,
+.VPLocalNav {
+  display: none !important;
+}
+
+/* Ensure body styling matches original */
+body {
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+
+/* Override VitePress container styles */
+.vp-content {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Preserve Bootstrap responsive behavior */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Ensure all VitePress overlays are hidden */
+.VPSidebar,
+.VPNavBar,
+.VPLocalNav,
+.VPFooter {
+  display: none !important;
+}
+
+/* Enhance project section scrolling */
+.projects .projectBrdr {
+  position: relative;
+}
+
+/* Use CSS Grid for responsive project layout */
+#sourceDiv ul {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  gap: 20px !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Responsive project cards - compact but readable */
+#sourceDiv ul li {
+  width: 100% !important;
+  margin-right: 0 !important;
+  max-width: 380px !important;
+  justify-self: center !important;
+  height: auto !important;
+  min-height: 320px !important;
+  padding: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+/* Responsive grid breakpoints */
+@media (max-width: 767px) {
+  #sourceDiv ul {
+    grid-template-columns: 1fr !important;
+    gap: 15px !important;
+  }
+
+  #sourceDiv ul li {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    min-height: 280px !important;
+    padding: 16px !important;
+  }
+
+  #sourceDiv ul li .tit {
+    font-size: 38px !important;
+  }
+
+  #sourceDiv ul li .desc {
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+
+  #sourceDiv ul li .logoA {
+    height: 45px !important;
+  }
+
+  #sourceDiv ul li .logoA img {
+    height: 45px !important;
+    max-width: 160px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #sourceDiv ul {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sourceDiv ul {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  #sourceDiv ul {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+  }
+}
+
+/* Make project card content more compact */
+#sourceDiv ul li .firstTR {
+  margin: 8px 0 !important;
+}
+
+#sourceDiv ul li .tit {
+  font-size: 46px !important;
+  line-height: 1em !important;
+  margin-bottom: 8px !important;
+  font-family: DINCondensedBold !important;
+  font-weight: bold !important;
+}
+
+#sourceDiv ul li .logoA {
+  height: 50px !important;
+}
+
+#sourceDiv ul li .logoA img {
+  height: 50px !important;
+  max-width: 180px !important;
+  padding-bottom: 0 !important;
+}
+
+#sourceDiv ul li .desc {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  margin: 10px 0 !important;
+  flex: 1 !important;
+}
+
+#sourceDiv ul li a {
+  font-size: 16px !important;
+  margin-top: 8px !important;
+}
+
+/* Reduce overall project section spacing */
+.projects .container {
+  padding-top: 60px !important;
+  padding-bottom: 30px !important;
+}
+
+.projects .bg2title {
+  margin-bottom: 40px !important;
+}
+
+/* Hide unused scroll-related elements since we're using grid layout */
+#targetDiv,
+.projects .scrollBrdr,
+.projects .scrollBrdr .scrollBg,
+.projects .scrollBrdr .scroller {
+  display: none !important;
+}
+
+/* Banner section styling to match original Jekyll */
+.banner .container {
+  padding: 140px 43px 0 !important;
+}
+
+.banner h1 {
+  padding-top: 12px !important;
+  font-family: DINCondensedBold !important;
+  font-size: 60px !important;
+  font-weight: bold !important;
+  color: #FFFFFF !important;
+  line-height: 72px !important;
+  letter-spacing: 2px !important;
+}
+
+.banner .desc {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 22px !important;
+  opacity: 0.8 !important;
+  padding-bottom: 27px !important;
+}
+
+.banner .nameAll {
+  white-space: nowrap !important;
+}
+
+.banner dt img {
+  width: 12px !important;
+}
+
+.banner dd {
+  color: #77ff64 !important;
+  padding-right: 6px !important;
+}
+
+.banner dt, .banner dd {
+  display: inline-block !important;
+}
+
+.banner .lightImg {
+  position: absolute !important;
+  width: 410px !important;
+  right: 43px !important;
+}
+
+.banner .light {
+  position: absolute !important;
+  width: 411px !important;
+}
+
+.banner .light img {
+  width: 100% !important;
+}
+
+.banner .bannerRht {
+  position: relative !important;
+  width: 410px !important;
+  height: 300px !important;
+}
+
+.banner .bulb {
+  position: absolute !important;
+  right: 182px !important;
+  top: 46px !important;
+}
+
+/* Banner animations - missing from VitePress */
+.banner .light {
+  -webkit-animation-name: ripple !important;
+  -webkit-animation-duration: 2s !important;
+  -webkit-animation-timing-function: ease !important;
+  -webkit-animation-delay: 0s !important;
+  -webkit-animation-iteration-count: infinite !important;
+  -webkit-animation-direction: alternate !important;
+  animation-name: ripple !important;
+  animation-duration: 2s !important;
+  animation-timing-function: ease !important;
+  animation-delay: 0s !important;
+  animation-iteration-count: infinite !important;
+  animation-direction: alternate !important;
+}
+
+.banner .bulb {
+  -webkit-animation-name: opc !important;
+  -webkit-animation-duration: 2s !important;
+  -webkit-animation-timing-function: ease !important;
+  -webkit-animation-delay: 0s !important;
+  -webkit-animation-iteration-count: infinite !important;
+  -webkit-animation-direction: alternate !important;
+  animation-name: opc !important;
+  animation-duration: 2s !important;
+  animation-timing-function: ease !important;
+  animation-delay: 0s !important;
+  animation-iteration-count: infinite !important;
+  animation-direction: alternate !important;
+}
+
+@keyframes ripple {
+  0% {
+    top: -27px;
+    width: 400px;
+    right: 43px;
+  }
+  100% {
+    top: -177px;
+    right: -100px;
+    width: 700px;
+  }
+}
+
+@keyframes opc {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0deg);
+    transform: translateX(1px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0deg);
+    transform: translateX(-1px) rotate(0deg);
+  }
+}
+
+/* Button hover animation styles */
+.buzz-out:hover,
+.buzz-out:focus,
+.buzz-out:active {
+  -webkit-animation-name: buzz-out !important;
+  animation-name: buzz-out !important;
+  -webkit-animation-duration: 0.75s !important;
+  animation-duration: 0.75s !important;
+  -webkit-animation-timing-function: linear !important;
+  animation-timing-function: linear !important;
+  -webkit-animation-iteration-count: 1 !important;
+  animation-iteration-count: 1 !important;
+  will-change: transform !important;
+}
+
+/* Header styling to match original Jekyll */
+header {
+  padding-top: 33px !important;
+  width: 100vw !important;
+  z-index: 999 !important;
+  padding-bottom: 20px !important;
+  position: absolute !important;
+}
+
+header .logo img {
+  width: 196px !important;
+}
+
+header .nav a.active {
+  color: #05d266 !important;
+}
+
+.nav-item {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
+/* Member hover effects */
+.members .member li:hover {
+  background: #093B60 !important;
+  box-shadow: 2px 2px 20px 0px rgba(2, 32, 54, 0.39) !important;
+  filter: blur(0px) !important;
+  cursor: pointer !important;
+  transform: translate(0, -15px) !important;
+  transition: all 0.3s ease !important;
+}
+
+.members .member li {
+  transition: all 0.3s ease !important;
+}
+
+/* Clean up any remaining scroll-related CSS */

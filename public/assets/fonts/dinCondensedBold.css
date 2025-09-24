@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "DINCondensedBold";
+    src: url("../fonts/DINCondensedBold/DINCondensedBold.woff2") format("woff2"),
+    url("../fonts/DINCondensedBold/DINCondensedBold.woff") format("woff");
+}
