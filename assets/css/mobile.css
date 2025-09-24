@@ -1,0 +1,340 @@
+@media (max-width: 769px) {
+    body,html,*{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    header .logo{
+        padding-top: 16px;
+        padding-left: 30px;
+    }
+    header .logo img{
+        width: 150px;
+    }
+    .navbar-toggler{
+        display: block;
+        padding-top: 20px;
+        text-align: right;
+        padding-right: 20px;
+
+    }
+    .nav-item a{
+        font-size: 15px;
+    }
+    .nav-link {
+        padding: 1rem;
+    }
+    header .navbar{
+        padding: 0;
+        width: 100vw;
+     }
+    .rht{
+        padding-right: 0;
+    }
+    #navbar{
+        display: none;
+    }
+    #navRht{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .navRhtBrdr{
+        display: none;
+    }
+    .navInner{
+        padding: 0;
+        margin: 0;
+        background: #fff;
+        position: fixed;
+        height: 100vh;
+        width: 65vw;
+        top:0;
+        right: 0;
+        bottom: 0;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .mask{
+        background: rgba(0, 0, 0, 0.6);
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        position: fixed;
+        z-index: 9;
+    }
+    .navRhtBrdr a{
+        color: #002c4c;
+        margin-bottom: 8px;
+    }
+    .nav-rht{
+        padding: 10px 0 0 30px;
+    }
+
+    .logo375{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo375 .logoRht{
+        width: 150px;
+    }
+    .closeRht{
+        width: 22px;
+    }
+    .navbar-toggler-icon{
+        width: 22px;
+    }
+    .navbar-toggler-icon img{
+        width: 100%;
+    }
+    .banner .container{
+        padding: 26px 31px 0;
+    }
+
+    .banner h1{
+        font-size: 31px;
+        line-height: 1em;
+    }
+    .nameAll{
+        display: inline-block;
+    }
+    .banner .desc{
+        font-size: 15px;
+        padding-bottom: 0;
+        line-height: 1.2em;
+    }
+    .banner dl{
+        display: flex;
+        flex-wrap: nowrap;
+        /*justify-content: space-between;*/
+        align-items: center;
+        padding-top: 5px;
+    }
+    .banner dt img{
+        width: 6px;
+        margin-right: 5px;
+    }
+    .banner dd{
+       font-size: 9px;
+        line-height: 2em;
+        padding-top: 9px;
+    }
+    .banner .bannerRht{
+        position: relative;
+        width: 234px;
+        height: 163px;
+        margin: 5px auto 0;
+    }
+    .banner .lightImg{
+
+        width: 236px;
+        right:0;
+    }
+    .banner .light{
+        width:236px;
+    }
+    @keyframes ripple {
+        0% {
+            top:-12px;
+            width:240px;
+            right:-10px;
+        }
+        100% {
+            top: -62px;
+            right: -40px;
+            width:340px;
+        }
+    }
+    .philosophy .container{
+        padding: 50px 33px 0;
+    }
+    .philosophy .bg1title{
+        display: inline-block;
+        background-size: contain;
+        font-size: 23px;
+        width: 250px;
+        line-height:3.2em;
+        padding-left:20px ;
+        margin-bottom: 15px;
+    }
+    .philosophy .phCont img{
+        width: 75px;
+    }
+    .philosophy .phCont{
+        font-size: 23px;
+        letter-spacing: 1.2px;
+        line-height: 1em;
+        font-family: DINCondensedBold;
+    }
+    .philosophy .phCont .row > div{
+        margin-bottom: 15px;
+    }
+    .members .container{
+        padding: 50px 33px 0;
+    }
+    .members .topTit{
+        font-size: 28px;
+        line-height: 1.2em;
+        width: auto;
+        letter-spacing: 1.2px;
+    }
+    .members .topTit span{
+        display: inline-block;
+        width: 100%;
+    }
+    .members .member{
+        margin-left: 0;
+    }
+    .members .member li{
+        height:auto;
+        margin-top: 0;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+        transition: transform 0.5s;
+        margin-left: 0;
+    }
+    .members .member li:hover{
+        background: none;
+        box-shadow:none;
+        filter:none;
+        cursor: pointer;
+        transform: none;
+    }
+    .hover{
+        background: #093B60!important;
+        box-shadow: 2px 2px 20px 0px rgba(2, 32, 54, 0.39)!important;
+        filter: blur(0px)!important;
+        cursor: pointer!important;
+        transform: translate(0,-15px)!important;
+    }
+    .members .member img{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .members .member li .nameTop{
+        font-size: 15px;
+    }
+    .members .member li .desc{
+        font-size: 15px;
+    }
+    .projects .container{
+        padding: 40px 33px 50px;
+    }
+    .projects .bg2title{
+        display: inline-block;
+        background-size: contain;
+        font-size: 23px;
+        padding:17px 80px 25px 50px;
+        margin-bottom: 0;
+    }
+    .projects .projectBrdr ul {
+        justify-content:flex-start;
+        flex-direction: column;
+    }
+    .projects .projectBrdr li{
+        height: auto;
+        font-size: 15px;
+        padding: 10px 12px 25px;
+        width: 100%;
+        min-height:168px ;
+    }
+    .projects .projectBrdr li:hover{
+        transform: none;
+    }
+    .projects .projectBrdr li .tit{
+        font-size: 23px;
+    }
+    .projects .projectBrdr li .logoA{
+        height: 44px;
+    }
+    .projects .projectBrdr li .logoA img{
+        height: 44px;
+        max-width: 180px;
+        padding-bottom: 0;
+    }
+    .projects .projectBrdr li .desc{
+        line-height: 1.2em;
+    }
+    .projects .scrollBrdr{
+        margin: 14px auto 27px;
+    }
+    .projects .scrollBrdr .scrollBg{
+        width: 40px;
+        height: 5px;
+    }
+    .projects .scrollBrdr .scroller{
+        width: 18px;
+        height: 5px;
+    }
+    footer{
+        padding: 23px 0 60px;
+    }
+    footer .know{
+        font-size: 30px;
+        line-height: 1.2em;
+        padding-bottom: 18px;
+        letter-spacing: 1px;
+    }
+    footer .show a{
+        width: 220px;
+        height: 30px;
+        font-size: 15px;
+        line-height:30px;
+        margin-bottom: 50px;
+    }
+    footer .contactbrdr{
+        flex-direction: column;
+    }
+    footer .contactbrdr .qrcode{
+        width: 60px;
+        padding: 0;
+        margin-right: 0;
+
+    }
+    footer .contBg{
+        top: auto;
+        bottom: 0;
+    }
+    footer .cont{
+        text-align: center;
+        padding:10px 0 19px;
+    }
+    footer .contactbrdr .nameTop{
+        font-size: 15px;
+    }
+    footer .contactbrdr .desc{
+       font-size: 15px;
+        opacity: 0.8;
+    }
+    footer .copyright{
+
+        font-size: 9px;
+
+    }
+    .lan{
+        top:21px;
+        right: 60px;
+    }
+    .banner .bulb{
+        position: absolute;
+        right: 80px;
+        top:27px;
+        width: 78px;
+    }
+    #targetDiv{
+        display: none;
+    }
+}

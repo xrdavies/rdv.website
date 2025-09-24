@@ -1,0 +1,117 @@
+
+.item {
+	height: 32px;
+	display: inline-block;
+	background: #f00;
+	width: 60px;
+}
+.filter-disabled {
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.filter-box {
+    position: relative;
+}
+
+.filter-box select {
+	display: none;
+}
+
+.filter-text {
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.filter-text input {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.filter-text .filter-title {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border: 0;
+	background-color: transparent;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0;
+	cursor: pointer;
+}
+.filter-text .filter-title:focus {
+outline: none;
+}
+
+.filter-list {
+	display: none;
+	width: 100%;
+	font-size: 14px;
+	position: absolute;
+	top: 42px;
+	left: 0;
+	z-index: 99;
+	overflow: auto;
+}
+
+.filter-list li.filter-null a {
+	color: #d2d2d2;
+}
+
+.filter-list li a {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.filter-list li:hover {
+
+}
+
+.filter-list li.filter-selected {
+	/*background-color: #5FB878;*/
+}
+
+.filter-list li.filter-selected a{
+	color: #05d266;
+}
+
+.icon {
+	position: absolute;
+}
+
+.icon-filter-arrow {
+	width: 8px;
+	height: 6px;
+	background-repeat: no-repeat;
+    background-image: url(../images/icon_arrow_down_x2.png);
+    background-size: 100%;
+    right: 10px;
+    top: 13px;
+    transition: all .2s;
+}
+
+.icon-filter-arrow.filter-show {
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+
+.filter-list::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+.filter-list::-webkit-scrollbar-track {
+	background: #fff
+}
+
+.filter-list::-webkit-scrollbar-thumb {
+	background: #CBCBCB;
+}
